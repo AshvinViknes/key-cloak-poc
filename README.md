@@ -50,8 +50,8 @@ Set the following environment variables based on your Keycloak setup:
 1. **Clone the Repository:**
 
    ```sh
-   git clone [<repository-url>](https://github.com/AshvinViknes/key-cloak-poc)
-   cd <repository-directory>
+   git clone https://github.com/AshvinViknes/key-cloak-poc
+   cd key-cloak-poc
    ```
 
 2. **Install Dependencies:**
