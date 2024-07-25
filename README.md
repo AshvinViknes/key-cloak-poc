@@ -50,7 +50,7 @@ Set the following environment variables based on your Keycloak setup:
 1. **Clone the Repository:**
 
    ```sh
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/AshvinViknes/key-cloak-poc)
    cd <repository-directory>
    ```
 
@@ -74,7 +74,7 @@ Set the following environment variables based on your Keycloak setup:
 - **GET** `/key-cloak-login` - Redirects to Keycloak for authentication.
 - **GET** `/callback` - Handles Keycloak callback after authentication.
 - **GET** `/logout` - Logs out the user and redirects to login page.
-- **GET** `/api` - Handles API requests.
+- **GET** `/api` - Handles API requests to validate the token is valid or not.
 
 ### CRUD Operations
 
