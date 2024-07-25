@@ -21,9 +21,9 @@ import (
 )
 
 var (
-	clientID          = "1234567890"                       // obtained from Keycloak Admin Console
-	clientSecret      = "l3xScd0frk0unLqCNHKUc5ysRA23tPjr" // obtained from Keycloak Admin Console
-	redirectURL       = "http://localhost:8081/callback"   // your application’s callback URL
+	clientID          = "clientID"                       	// obtained from Keycloak Admin Console
+	clientSecret      = "secretKey" 			// obtained from Keycloak Admin Console
+	redirectURL       = "http://localhost:8081/callback"    // your application’s callback URL
 	logoutRedirectURL = "http://localhost:8081/login"
 	issuerURL         = "http://localhost:8080/realms/myrealm" // Keycloak realm configuration URL
 )
